@@ -1,0 +1,109 @@
+
+:root {
+  --primary-bg-color: #F8EDE3;
+  --secondary-bg-color: #DFD3C3;
+  --primary-title-color: #C5705D;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #4A4947;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--primary-bg-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: var(--primary-title-color);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.select-recipe {
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loading-text,
+.error-text {
+  text-align: center;
+  color: #FF885B;
+  font-size: 1.2rem;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-title-color);
+  color: #FAF7F0;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.recipe-details {
+  background-color: #FAF7F0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-details h2 {
+  text-align: center;
+  color: var(--primary-title-color);
+  margin-bottom: 10px;
+}
+
+.ingredients-container,
+.instructions-container,
+.difficulty-container {
+  margin-bottom: 15px;
+}
+
+.difficulty-container {
+  text-align: center;
+}
+
+.ingredients {
+  background-color: var(--secondary-bg-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: #4A4947;
+}
+
+.ingredients-list {
+  padding-left: 20px;
+}
+
+.instructions {
+  color: #4A4947;
+  font-size: 1.1rem;
+  background-color: var(--secondary-bg-color);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.difficulty {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-title-color);
+  display: inline-block;
+}
